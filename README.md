@@ -1,6 +1,6 @@
-Nama: **Muhammad Abyasa Pratama**
-NPM: **2306207663**
-Kelas: **F**
+Nama: **Muhammad Abyasa Pratama**<br>
+NPM: **2306207663**<br>
+Kelas: **F**<br>
 
 1. _Stateless widget_ merupakan jenis elemen pada Flutter yang tidak memuat data-data tertentu dan tidak terpengaruh oleh perubahan internal, namun bisa terpengaruh oleh aksi eksternal pada _parent widget_-nya. _Stateless widget_ biasanya digunakan untuk elemen-elemen UI yang bersifat statis seperti _title_ aplikasi dan ikon/gambar. Sementara itu, _stateful widget_ merupakan jenis elemen yang bisa terpengaruh oleh aksi atau perubahan yang terjadi secara internal, misalnya seperti perubahan pada data. _Stateful widget_ biasanya digunakan untuk elemen-elemen UI yang bersifat interaktif/dinamis seperti _counter_ dan _input form_.
 
