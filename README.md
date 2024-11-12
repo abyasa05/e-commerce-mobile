@@ -7,12 +7,12 @@ Kelas: **F**<br>
 2. `row` digunakan untuk menyusun elemen-elemen secara horizontal dalam suatu baris. Salah satu contoh penggunaan `row` yaitu dalam penyusunan beberapa _button_/_card_ dalam suatu laman, di mana penyusunan ini biasanya dilakukan secara horizontal. Sementara itu, `column` digunakan untuk menyusun elemen-elemen secara vertikal dalam suatu kolom. Contoh implementasi dari `column` yaitu dalam pembuatan widget `Form`, di mana setiap _entry field_-nya beserta dengan tombol _submit_/_save_ disusun secara vertikal dari atas ke bawah. Contoh lainnya yaitu dalam penyusunan konten dari suatu _drawer_ (teks beserta _button_/tautan ke laman lain).
 
 3. Pada tugas ini, saya menggunakan `TextFormField` untuk membuat input _field_  yang menerima teks/angka untuk menginput nama, harga, dan deskripsi. Selain TextFormField, Flutter juga menyediakan beberapa jenis elemen input lain seperti:
-- `DropDownButtonFormField`: Elemen input yang meminta _user_ untuk memilih salah satu dari beberapa _value_ yang disusun dalam bentuk _dropdown_.
-- `RadioListTile`: Elemen input yang menyediakan beberapa pilihan _value_ yang disusun menggunakan _radio button_, di mana _user_ bisa memilih salah satu _radio button_ tersebut.
-- `CheckboxListTile`: Elemen input yang meminta _user_ untuk memilih satu/beberapa _value_ yang disusun dalam suatu list yang berisi _checkbox_. Elemen ini juga bisa digunakan untuk mengaktifkan/mematikan suatu kondisi tertentu.
-- `SwitchListTile`: Elemen input yang berbentuk suatu _switch_, di mana _user_ bisa mengaktifkan/mematikan atau mengubah suatu _state_/kondisi yang diatur oleh _switch_ tersebut.
-- `Slider`: Elemen input yang meminta _user_ untuk memilih suatu _value_ numerik dari suatu _range_ yang bersifat kontinu.
-- `DatePicker`/`TimePicker`: Elemen input yang memungkinkan _user_ untuk memilih suatu tanggal/waktu tertentu.
+    - `DropDownButtonFormField`: Elemen input yang meminta _user_ untuk memilih salah satu dari beberapa _value_ yang disusun dalam bentuk _dropdown_.
+    - `RadioListTile`: Elemen input yang menyediakan beberapa pilihan _value_ yang disusun menggunakan _radio button_, di mana _user_ bisa memilih salah satu _radio button_ tersebut.
+    - `CheckboxListTile`: Elemen input yang meminta _user_ untuk memilih satu/beberapa _value_ yang disusun dalam suatu list yang berisi _checkbox_. Elemen ini juga bisa digunakan untuk mengaktifkan/mematikan suatu kondisi tertentu.
+    - `SwitchListTile`: Elemen input yang berbentuk suatu _switch_, di mana _user_ bisa mengaktifkan/mematikan atau mengubah suatu _state_/kondisi yang diatur oleh _switch_ tersebut.
+    - `Slider`: Elemen input yang meminta _user_ untuk memilih suatu _value_ numerik dari suatu _range_ yang bersifat kontinu.
+    - `DatePicker`/`TimePicker`: Elemen input yang memungkinkan _user_ untuk memilih suatu tanggal/waktu tertentu.
 
 4. Pengaturan untuk tema aplikasi Flutter terdapat pada widget `ThemeData` dalam _root widget_ (`MyApp`) yang terdapat pada berkas `main.dart`. Untuk mengaplikasikan tema tersebut pada aplikasi, dapat dilakukan pemanggilan _method_ `Theme.of` pada _build_ dari _children widget_-nya. Contohnya, pada aplikasi ini, saya menggunakan instansiasi `color: Theme.of(context).colorScheme.primary,` pada `left drawer` dan _widget-widget_ lainnya agar warna dari _widget-widget_ tersebut sesuai dengan _primary color_ yang didefinisikan dalam `ThemeData` pada _root widget_ `MyApp`.
 
