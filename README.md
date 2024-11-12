@@ -2,6 +2,8 @@ Nama: **Muhammad Abyasa Pratama**<br>
 NPM: **2306207663**<br>
 Kelas: **F**<br>
 
+## Jawaban Tugas 8
+
 1. `const` merupakan variabel yang bersifat _immutable_ (nilainya tidak bisa diubah) dan sudah terdefinisi saat _compile time_. Jika variabel const digunakan untuk menginstansiasi suatu elemen widget, variabel tersebut dapat digunakan berulang kali setiap dilakukan pemanggilan terhadap variabel tersebut (tidak perlu diinstansiasi ulang). Hal ini bisa berefek pada peningkatan performa dari aplikasi yang dibuat. Berdasarkan sifat-sifatnya, variabel `const` dapat digunakan untuk membuat _instance_ dari _widget_ yang bersifat statis dan dapat didefinisikan langsung saat _compile time_ (contohnya seperti nilai _string_ atau _integer_ yang didefinisikan langsung dalam proyek Flutter). Sebaliknya, `const` tidak dapat digunakan untuk membuat _instance_ variabel jika nilainya bersifat _mutable_ (dapat berubah) atau bergantung pada _runtime_ (contohnya seperti data yang di-_fetch_ dari API).
 
 2. `row` digunakan untuk menyusun elemen-elemen secara horizontal dalam suatu baris. Salah satu contoh penggunaan `row` yaitu dalam penyusunan beberapa _button_/_card_ dalam suatu laman, di mana penyusunan ini biasanya dilakukan secara horizontal. Sementara itu, `column` digunakan untuk menyusun elemen-elemen secara vertikal dalam suatu kolom. Contoh implementasi dari `column` yaitu dalam pembuatan widget `Form`, di mana setiap _entry field_-nya beserta dengan tombol _submit_/_save_ disusun secara vertikal dari atas ke bawah. Contoh lainnya yaitu dalam penyusunan konten dari suatu _drawer_ (teks beserta _button_/tautan ke laman lain).
