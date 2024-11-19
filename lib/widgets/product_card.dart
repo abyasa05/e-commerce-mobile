@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:e_commerce/screens/productentry_form.dart';
+import 'package:e_commerce/screens/list_shopentry.dart';
 
 class ItemHomepage {
     final String name;
@@ -37,7 +38,16 @@ class ItemCard extends StatelessWidget {
           // Navigate ke route yang sesuai (tergantung jenis tombol)
           if (item.name == "Tambah Produk") {
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const ProductEntryFormPage()));
+                MaterialPageRoute(
+                  builder: (context) => const ProductEntryFormPage())
+            );
+          }
+          else if (item.name == "Lihat Daftar Produk") {
+            Navigator.push(context,
+                MaterialPageRoute(
+                    builder: (context) => const ShopEntryPage()
+                ),
+            );
           }
         },
         // Container untuk menyimpan Icon dan Text
