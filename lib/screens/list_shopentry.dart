@@ -13,7 +13,6 @@ class ShopEntryPage extends StatefulWidget {
 
 class _ShopEntryPageState extends State<ShopEntryPage> {
   Future<List<ShopEntry>> fetchProduct(CookieRequest request) async {
-    // TODO: Ganti URL dan jangan lupa tambahkan trailing slash (/) di akhir URL!
     final response = await request.get('http://127.0.0.1:8000/json/');
     
     // Melakukan decode response menjadi bentuk json
